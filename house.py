@@ -22,6 +22,10 @@ ctx.rectangle(400,230,140,10)
 ctx.set_source_rgb(0, 0, 0)
 ctx.stroke()
 
+ctx.rectangle(80,268,490,10)
+ctx.set_source_rgb(0, 0, 0)
+ctx.stroke()
+
 surface.write_to_png('house.png')
 
 print("Rectangle drawn and saved as 'rectangle.png'")
